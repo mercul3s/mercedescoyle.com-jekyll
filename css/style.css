@@ -218,6 +218,12 @@ hr {
   margin: auto;
 }
 
+#content p {
+  width: 700px;
+  margin-left: 6%;
+  text-align: justify;
+}
+
 #communication {
   width: 625px;
   height: 430px;
@@ -225,8 +231,14 @@ hr {
   margin-top: 0px;
 }
 
-#content p {
-  width: 700px;
-  margin-left: 6%;
-  text-align: justify;
+#post {
+  width: 800px;
+  height: auto;
+  margin: auto;
+}
+
+#post_title {
+  width: 800px;
+  height: auto;
+  margin: auto;
 }
