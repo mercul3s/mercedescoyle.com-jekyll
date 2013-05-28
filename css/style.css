@@ -215,6 +215,7 @@ hr {
   width: 800px;
   height: auto;
   margin: auto;
+  margin-top: -5%;
 }
 
 #content p {
