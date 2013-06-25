@@ -31,7 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
     line-height: 1;
     background-color: #efefef;
-    background-image: url('../images/paper.png');
+    background-image: url('../images/pw_pattern.png');
 }
 ol, ul {
     list-style: none;
@@ -111,6 +111,16 @@ hr {
   background: #f24405;
   z-index: -1;
   border: none;
+}
+
+.thin-divider {
+  border: 0;
+  height: 1px;
+  width: 90%;
+  background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+  background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+  background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+  background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
 }
 
 .header {
@@ -241,6 +251,42 @@ hr {
   margin: auto;
 }
 
+/* about page formatting */
+
+.about-header {
+  font-size: 120%;
+  text-align: left;
+  padding-left: 10px;
+}
+
+#columns p {
+  width: auto;
+  padding: 2px;
+  word-wrap: break-word;
+  float: left;
+  margin: 0px;
+}
+
+#left {
+  width: 33%;
+  height: 500px;
+  float: left;
+}
+
+#center {
+  width: 33%;
+  height: 500px;
+  float: left;
+}
+
+#right {
+  width: 33%;
+  height: 500px;
+  float: right;
+}
+
+/* blog formatting */
+
 #post {
   width: 600px;
   height: auto;
@@ -252,5 +298,8 @@ hr {
 }
 
 .footer {
+  position: fixed;
+  float: left;
   height: 50px;
+  bottom: 0;
 }
