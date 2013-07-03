@@ -303,6 +303,11 @@ hr {
   float: left;
 }
 
+.blog-divider {
+  width: 85%;
+  height: 2px;
+}
+
 /* TODO: make footer css transparent gradient */
 
 .footer {

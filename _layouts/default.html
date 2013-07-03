@@ -16,7 +16,10 @@
 
     </head>
     <body>
-
+<!--
+TODO:
+- Fix footer (shows up in middle of page)
+-->
         <div class="main">
 
           <div class="header">
@@ -24,18 +27,18 @@
             <div id="navigation">
 
               <ul id="left-nav">
-                <li><a href="tech.html" class="navigation" id="tech">tech</a></li>
-                <li><a href="music.html" class="navigation" id="music">music</a></li>
+                <li><a href="{{ site.url }}/tech.html" class="navigation" id="tech">tech</a></li>
+                <li><a href="{{ site.url }}/music.html" class="navigation" id="music">music</a></li>
               </ul>
               <ul id="right-nav">
-                <li><a href="blog/" class="navigation" id="blog">blog</a></li>
-                <li><a href="about.html" class="navigation" id="about">about</a></li>
+                <li><a href="{{ site.url }}/blog/" class="navigation" id="blog">blog</a></li>
+                <li><a href="{{ site.url }}/about.html" class="navigation" id="about">about</a></li>
               </ul>
 
             </div>
 
             <hr />
-              <a href="index.html">
+              <a href="{{ site.url }}/index.html">
                 <!-- <img src="images/logo-150.png" alt="logo" width="150" height="150" /> -->
               <div id="logo">
                 <p>MC</p>
