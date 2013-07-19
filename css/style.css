@@ -98,8 +98,9 @@ color: #515151;
 
 #main {
   width: 1200px;
-  height: auto;
+  height: 700px;
   margin: auto;
+  /*overflow: hidden;*/
 }
 
 /* All header css */
@@ -297,15 +298,22 @@ hr {
   width: 600px;
   height: auto;
   margin: auto;
+  padding-bottom: 100px;
 }
 
-#post h1 {
+#post h2 {
   float: left;
 }
 
 .blog-divider {
   width: 85%;
   height: 2px;
+}
+
+#paging {
+  width: 300px;
+  margin: auto;
+  padding-bottom: 150px;
 }
 
 /* TODO: make footer css transparent gradient */
@@ -316,9 +324,10 @@ hr {
   margin: auto;
   left: 0;
   right: 0;
+  bottom: 0;
   width: auto;
-  height: auto;
-  top: 650px;
+  height: 50px;
+  /*top: 650px;*/
 }
 
 .contact {
