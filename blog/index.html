@@ -14,15 +14,15 @@ TODO:
 
 <div id="content">
 
-<div class="posts">
+<div class="post">
 	<br>
 	<ul class="posts">
 		{% for post in paginator.posts %}
-		<li><span class="date"><a href="{{ post.url }}">{{ post.title }}</a>	{{ post.date | date: "%B %d, %Y"}}</span></li>
+		<li><span class="date"><a href="{{ post.url }}">{{ post.title }}</a> {{ post.date | date: "%B %d, %Y"}}</span></li>
 		<li>{{ post.content | strip_html | truncatewords: 100 }}</li>
-	</ul>
       <hr class="blog-divider" />
 	{% endfor %}
+	</ul>
 </div>
 </div>
 <div id="paging">

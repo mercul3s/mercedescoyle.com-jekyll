@@ -126,7 +126,7 @@ hr {
 
 .header {
   width: 800px;
-  height: 175px;
+  height: 125px;
   margin: auto;
   margin-top: 5%;
   border: none;
@@ -144,33 +144,20 @@ hr {
   -khtml-border-radius: 20px;
   border-radius: 20px;
   background-color: #f24405;
-  /*z-index: 2;*/
 }
 
 #logo p {
   color: #efefef;
   font-size: 5em;
   font-family: 'Monoton', cursive;
-  /*width: 148px;*/
-  /*height: 148px;*/
   padding-top: 40%;
   text-align: center;
   margin: auto;
-  /*margin-top: 50px;*/
 }
 
 #logo a {
   text-decoration: none;
 }
-
-/*#logo a:hover, a:active {
-}*/
-/* Image Logo CSS - no css drop shadow */
-/*#logo {
-  margin-left: 500px;
-  margin-top: 5%;
-  padding: 0px;
-}*/
 
 #navigation {
   /*position: absolute;*/
@@ -226,7 +213,7 @@ hr {
 
 #content {
   width: 800px;
-  height: auto;
+  height: 500px;
   margin: auto;
   margin-top: -5%;
 }
@@ -243,20 +230,14 @@ hr {
   margin-right: auto;
 }
 
-/*#content ul {
-  padding-left: 0px;
-  float: left;
-}
+/* index page formatting */
 
-#content li {
-  float: left;
-}*/
-
-/*#communication {
+#communication {
   width: 625px;
   height: 430px;
   margin: auto;
-}*/
+  padding: 0px;
+}
 
 /* about page formatting */
 
