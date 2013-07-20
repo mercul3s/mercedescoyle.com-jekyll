@@ -3,40 +3,28 @@ layout: default
 title: Electronic Ephemera
 ---
 
-<!--
-TODO:
-- DONE clip content of each post so that it shows a line or two
-- DONE Get pagination working properly
-- left-align title, right-align date
-- padding between blog posts
-- dotted line divider (may need to use image)
- -->
-
 <div id="content">
 
-<div class="post">
-	<br>
-	<ul class="posts">
+	<div id="posts">
 		{% for post in paginator.posts %}
-		<li><span class="date"><a href="{{ post.url }}">{{ post.title }}</a> {{ post.date | date: "%B %d, %Y"}}</span></li>
-		<li>{{ post.content | strip_html | truncatewords: 100 }}</li>
+		<span class="date"><p>{{ post.date | date: "%B %d, %Y"}}</p></span>
+		<p class="post"><a href="{{ post.url }}">{{ post.title }}</a> <br>{{ post.content | strip_html | truncatewords: 100 }}</p>
       <hr class="blog-divider" />
-	{% endfor %}
-	</ul>
-</div>
-</div>
-<div id="paging">
-	{% if paginator.previous_page %}
-		{% if paginator.previous_page == 1 %}
-			<a href="/blog/">&lArr; Previous Page</a>
-		{% else %}
-			<a href="/blog/page{{ paginator.previous_page }}">&lArr; Previous Page</a>
+		{% endfor %}
+	<div id="paging">
+		{% if paginator.previous_page %}
+			{% if paginator.previous_page == 1 %}
+				<a href="/blog/">&lArr; Previous Page</a>
+			{% else %}
+				<a href="/blog/page{{ paginator.previous_page }}">&lArr; Previous Page</a>
+			{% endif %}
 		{% endif %}
-	{% endif %}
 
-	Page {{ paginator.page }} of {{ paginator.total_pages }}
+		Page {{ paginator.page }} of {{ paginator.total_pages }}
 
-	{%  if paginator.next_page %}
-		<a href="/blog/page{{ paginator.next_page }}">Next Page &rArr;</a>
-	{% endif %}
+		{%  if paginator.next_page %}
+			<a href="/blog/page{{ paginator.next_page }}">Next Page &rArr;</a>
+		{% endif %}
+	</div>
+	</div>
 </div>

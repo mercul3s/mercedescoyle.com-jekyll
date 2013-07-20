@@ -32,6 +32,7 @@ body {
     line-height: 1;
     background-color: #efefef;
     background-image: url('../images/pw_pattern.png');
+    /*overflow: hidden;*/
 }
 ol, ul {
     list-style: none;
@@ -126,7 +127,7 @@ hr {
 
 .header {
   width: 800px;
-  height: 125px;
+  height: 175px;
   margin: auto;
   margin-top: 5%;
   border: none;
@@ -213,17 +214,11 @@ hr {
 
 #content {
   width: 800px;
-  height: 500px;
+  height: auto;
   margin: auto;
   margin-top: -5%;
 }
 
-#content p {
-  width: 700px;
-  margin-left: 6%;
-  text-align: left;
-  /*text-align: justify;*/
-}
 #content img {
   display: block;
   margin-left: auto;
@@ -275,12 +270,30 @@ hr {
 
 /* blog formatting */
 
-#post {
-  width: 600px;
+#posts {
+  width: 750px;
   height: auto;
   margin: auto;
   padding-bottom: 100px;
 }
+
+.post {
+  width: 575px;
+  height: 200px;
+  margin: auto;
+  padding: 10px;
+  float: left;
+}
+
+.date {
+  width: 100px;
+  margin: auto;
+  float: right;
+}
+
+/*.post li {
+  padding: 5px;
+}*/
 
 #post h2 {
   float: left;
@@ -293,8 +306,9 @@ hr {
 
 #paging {
   width: 300px;
+  height: 50px;
   margin: auto;
-  padding-bottom: 150px;
+  text-align: center;
 }
 
 /* TODO: make footer css transparent gradient */
