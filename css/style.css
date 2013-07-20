@@ -3,6 +3,15 @@
    License: none (public domain)
 */
 
+
+/*===========================
+    Colors used in this site:
+    #efefef - background, logo text - off-white towards gray
+    #515151 - text, not active links - medium to dark gray
+    #f24405 - active links, logo, hr - dark orange
+    #000    - black - used for exclamation points
+===========================*/
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, acronym, address, big, cite, code,
@@ -21,7 +30,6 @@ time, mark, audio, video {
     border: 0;
     font-size: 100%;
     font: inherit;
-    /*vertical-align: baseline;*/
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
@@ -32,7 +40,6 @@ body {
     line-height: 1;
     background-color: #efefef;
     background-image: url('../images/pw_pattern.png');
-    /*overflow: hidden;*/
 }
 ol, ul {
     list-style: none;
@@ -86,27 +93,28 @@ a:visited {
     Main Styles
 =========================================*/
 
-div, img, hr, ul, li, img, p {
+div, img, hr, ul, li, img, p, a {
   /*border: 1px solid red;*/
 }
 
 body {
-font-family: arial;
-font-size: 15px;
-line-height: 25px;
-color: #515151;
+  font-family: arial;
+  font-size: 15px;
+  line-height: 25px;
+  color: #515151;
 }
 
 #main {
   width: 1200px;
-  height: 700px;
+  height: auto;
   margin: auto;
-  /*overflow: hidden;*/
 }
 
-/* All header css */
+/*=========================================
+    All header css 
+=========================================*/
+
 hr {
-  /*position: absolute;*/
   height: .30em;
   width: 800px;
   margin: auto;
@@ -133,7 +141,10 @@ hr {
   border: none;
 }
 
-/* CSS 3 logo, no image*/
+/*=========================================
+   CSS 3 logo, no image
+=========================================*/
+
 #logo {
   width: 150px;
   height: 150px;
@@ -161,11 +172,9 @@ hr {
 }
 
 #navigation {
-  /*position: absolute;*/
   width: 500px;
   height: 40px;
   margin: auto;
-  /*margin-left: 350px;*/
   margin-top: 3%;
 }
 
@@ -210,7 +219,9 @@ hr {
   color: #000;
 }
 
-/* Main Content CSS */
+/*=========================================
+    Main Content CSS 
+=========================================*/
 
 #content {
   width: 800px;
@@ -225,7 +236,9 @@ hr {
   margin-right: auto;
 }
 
-/* index page formatting */
+/*=========================================   
+    Index page formatting 
+=========================================*/
 
 #communication {
   width: 625px;
@@ -234,7 +247,9 @@ hr {
   padding: 0px;
 }
 
-/* about page formatting */
+/*=========================================
+    about page formatting 
+=========================================*/
 
 .about-header {
   font-size: 120%;
@@ -268,40 +283,61 @@ hr {
   float: right;
 }
 
-/* blog formatting */
+/*=========================================
+    blog index page formatting 
+=========================================*/
 
 #posts {
   width: 750px;
   height: auto;
-  margin: auto;
-  padding-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 500px;
 }
 
-.post {
+.title {
+  font-size: 1.2em;
+
+}
+
+.column-left {
+  background-color: #fCfCfC;
+  box-shadow: -4px 4px 1px #757575;
   width: 575px;
   height: 200px;
-  margin: auto;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 10px;
   float: left;
+  overflow: hidden;
 }
 
-.date {
-  width: 100px;
+.column-left p {
+  clear: left;
+}
+
+.column-left a:hover {
+  color: #f24405;
+  -webkit-transition: color .3s ease-out; /* Saf3.2+, Chrome */
+  -moz-transition: color .3s ease-out; /* Firefox 4+ */
+  -ms-transition: color .3s ease-out; /* IE10+ */
+  -o-transition: color .3s ease-out; /* Opera 10.5+ */
+  transition: color .3s ease-out;
+}
+
+.column-right {
+  background-color: #f7f7f7;
+  width: 130px;
   margin: auto;
   float: right;
-}
-
-/*.post li {
-  padding: 5px;
-}*/
-
-#post h2 {
-  float: left;
+  padding: 10px;
 }
 
 .blog-divider {
   width: 85%;
   height: 2px;
+  float: left;
 }
 
 #paging {
@@ -309,7 +345,18 @@ hr {
   height: 50px;
   margin: auto;
   text-align: center;
+  /*margin-bottom: 100px;*/
 }
+
+/*--------------------- What is this I don't even...*/
+
+#post h2 {
+  float: left;
+}
+
+/*=========================================
+    Footer
+=========================================*/
 
 /* TODO: make footer css transparent gradient */
 

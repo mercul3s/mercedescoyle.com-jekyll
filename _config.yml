@@ -1,4 +1,4 @@
 name: Electronic Ephemera
-paginate: 10
+paginate: 5
 paginate_path: "/blog/page:num"
 permalink: /blog/:title
