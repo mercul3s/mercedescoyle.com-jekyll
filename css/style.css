@@ -135,7 +135,7 @@ hr {
 
 .header {
   width: 800px;
-  height: 175px;
+  height: 190px;
   margin: auto;
   margin-top: 5%;
   border: none;
@@ -225,7 +225,7 @@ hr {
 
 #content {
   width: 800px;
-  height: auto;
+  min-height: 450px;
   margin: auto;
   margin-top: -5%;
 }
@@ -255,6 +255,7 @@ hr {
   font-size: 120%;
   text-align: left;
   padding-left: 10px;
+  padding-top: 20px;
 }
 
 #columns p {
@@ -292,7 +293,7 @@ hr {
   height: auto;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 500px;
+  /*margin-bottom: 500px;*/
 }
 
 .title {
@@ -303,11 +304,9 @@ hr {
 .column-left {
   background-color: #fCfCfC;
   box-shadow: -4px 4px 1px #757575;
-  width: 575px;
+  width: 550px;
   height: 200px;
   margin-bottom: 10px;
-  margin-left: auto;
-  margin-right: auto;
   padding: 10px;
   float: left;
   overflow: hidden;
@@ -327,11 +326,15 @@ hr {
 }
 
 .column-right {
-  background-color: #f7f7f7;
-  width: 130px;
-  margin: auto;
+  background-color: #757575;
+  width: 150px;
   float: right;
   padding: 10px;
+}
+
+.column-right p {
+  color: #efefef;
+  font-size: 1.1em;
 }
 
 .blog-divider {
@@ -341,11 +344,20 @@ hr {
 }
 
 #paging {
-  width: 300px;
-  height: 50px;
-  margin: auto;
-  text-align: center;
-  /*margin-bottom: 100px;*/
+  float: left;
+  clear: both;
+  width: 550px;
+  height: 100px;
+  padding: 5px;
+}
+#paging a {
+  width: 175px;
+  float: left;
+}
+
+.page-numbers {
+  width: 175px;
+  float: left;
 }
 
 /*--------------------- What is this I don't even...*/
@@ -363,22 +375,20 @@ hr {
 .footer {
   background-color: #efefef;
   position: fixed;
-  margin: auto;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: auto;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
   height: 50px;
   /*top: 650px;*/
 }
 
 .contact {
-  width: 250px;
+  width: 255px;
   height: 50px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
 }
 .contact img {
   padding-left: 15px;
   padding-right: 15px;
+  margin: auto;
 }
