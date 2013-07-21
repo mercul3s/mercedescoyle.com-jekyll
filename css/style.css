@@ -135,7 +135,7 @@ hr {
 
 .header {
   width: 800px;
-  height: 190px;
+  height: 150px;
   margin: auto;
   margin-top: 5%;
   border: none;
@@ -227,13 +227,13 @@ hr {
   width: 800px;
   min-height: 450px;
   margin: auto;
-  margin-top: -5%;
 }
 
 #content img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 50px;
 }
 
 /*=========================================   
@@ -256,6 +256,18 @@ hr {
   text-align: left;
   padding-left: 10px;
   padding-top: 20px;
+}
+
+#about-content {
+  width: 750px;
+  height: 200px;
+  margin: auto;
+  margin-bottom: 100px;
+  padding: 15px;
+  background-color: #fCfCfC;
+  -moz-box-shadow: -4px 4px 1px #757575;
+  -webkit-box-shadown: -4px 4px 1px #757575;
+  box-shadow: -4px 4px 1px #757575;
 }
 
 #columns p {
@@ -304,6 +316,8 @@ hr {
 .column-left {
   background-color: #fCfCfC;
   box-shadow: -4px 4px 1px #757575;
+  -moz-box-shadow: -4px 4px 1px #757575;
+  -webkit-box-shadown: -4px 4px 1px #757575;
   width: 550px;
   height: 200px;
   margin-bottom: 10px;
@@ -340,6 +354,7 @@ hr {
 .blog-divider {
   width: 85%;
   height: 2px;
+  margin: 3px;
   float: left;
 }
 
@@ -360,10 +375,53 @@ hr {
   float: left;
 }
 
-/*--------------------- What is this I don't even...*/
 
-#post h2 {
-  float: left;
+#post {
+  background-color: #fCfCfC;
+  box-shadow: -4px 4px 1px #757575;
+  -moz-box-shadow: -4px 4px 1px #757575;
+  -webkit-box-shadown: -4px 4px 1px #757575;
+  width: 750px;
+  margin: auto;
+  text-align: justify;
+  padding: 15px;
+  margin-bottom: 100px;
+}
+
+#post p {
+  clear: left;
+}
+
+/*=========================================
+    Tech
+=========================================*/
+
+#tech-content {
+  width: 750px;
+  height: auto;
+  margin: auto;
+  margin-bottom: 100px;
+  padding: 15px;
+  background-color: #fCfCfC;
+  -moz-box-shadow: -4px 4px 1px #757575;
+  -webkit-box-shadown: -4px 4px 1px #757575;
+  box-shadow: -4px 4px 1px #757575;
+}
+
+/*=========================================
+    Music
+=========================================*/
+
+#music-content {
+  width: 750px;
+  height: auto;
+  margin: auto;
+  margin-bottom: 100px;
+  padding: 15px;
+  background-color: #fCfCfC;
+  -moz-box-shadow: -4px 4px 1px #757575;
+  -webkit-box-shadown: -4px 4px 1px #757575;
+  box-shadow: -4px 4px 1px #757575;
 }
 
 /*=========================================
@@ -383,7 +441,7 @@ hr {
 }
 
 .contact {
-  width: 255px;
+  width: 340px;
   height: 50px;
   margin: auto;
 }
