@@ -303,33 +303,38 @@ hr {
 #posts {
   width: 85%;
   height: auto;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
 }
 
 .title {
   font-size: 1.2em;
+  float: left;
+  padding: 20px;
 
 }
 
-.column-left {
+.post {
   background-color: #fCfCfC;
   box-shadow: -4px 4px 1px #757575;
   -moz-box-shadow: -4px 4px 1px #757575;
   -webkit-box-shadown: -4px 4px 1px #757575;
-  width: 70%;
+  width: 95%;
   height: auto;
   margin-bottom: 10px;
-  padding: 10px;
-  float: left;
+  /*padding: 20px;*/
+  margin-left: auto;
+  margin-right: auto;
   overflow: hidden;
 }
 
-.column-left p {
+.post p {
+  padding: 20px;
   clear: left;
+  text-align: justify;
 }
 
-.column-left a:hover {
+
+.post a:hover {
   color: #f24405;
   -webkit-transition: color .3s ease-out; /* Saf3.2+, Chrome */
   -moz-transition: color .3s ease-out; /* Firefox 4+ */
@@ -338,23 +343,30 @@ hr {
   transition: color .3s ease-out;
 }
 
-.column-right {
-  background-color: #757575;
-  width: 20%;
+.date {
+  background-color: #a6a6a6;
+  width: 110px;
+  height: 25px;
+  display: inline;
   float: right;
-  padding: 10px;
+  margin-top: 10px;
+  padding: 5px;
+  z-index: 1;
 }
 
-.column-right p {
+.date p {
   color: #efefef;
-  font-size: 1.05em;
+  font-size: .75em;
+  display: inline;
 }
 
-.blog-divider {
+.title-divider {
   width: 85%;
   height: 2px;
   margin: 3px;
-  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  /*float: left;*/
 }
 
 #paging {

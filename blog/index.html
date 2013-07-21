@@ -6,13 +6,13 @@ title: Electronic Ephemera
 <div id="content">
 	<div id="posts">
 		{% for post in paginator.posts %}
-		<div class="column-left">
+		<div class="post">
 			<a href="{{ post.url }}" class="title">{{ post.title }}</a>
-			<hr class="blog-divider" />	
-			<p class="snippet">{{ post.content | strip_html | truncatewords: 100 }}</p>
-		</div>
-		<div class="column-right">
-			<p class="date">{{ post.date | date: "%B %d, %Y"}}</p>
+			<div class="date">
+				<p>{{ post.date | date: "%b %d, %Y"}}</p>
+			</div>
+			<hr class="title-divider" />	
+			<p class="snippet">{{ post.content | strip_html | truncatewords: 200 }}</p>
 		</div>
 		{% endfor %}
 	<div id="paging">
