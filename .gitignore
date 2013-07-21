@@ -1,3 +1,4 @@
 _site
 wordpress
 .DS_Store
+*.psd
