@@ -403,6 +403,7 @@ hr {
 
 #post p {
   clear: left;
+  margin: 20px;
 }
 
 /*=========================================
@@ -449,7 +450,7 @@ hr {
   left: 0px;
   right: 0px;
   bottom: 0px;
-  height: 50px;
+  height: 60px;
   /*top: 650px;*/
 }
 
