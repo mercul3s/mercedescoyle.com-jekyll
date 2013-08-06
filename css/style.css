@@ -398,12 +398,33 @@ hr {
   margin: auto;
   text-align: justify;
   padding: 15px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 #post p {
   clear: left;
   margin: 20px;
+}
+
+/*=========================================
+    Comments 
+=========================================*/
+#comments {
+  width: 700px;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.comment {
+  width: 600px;
+  margin: auto;
+  background-color: #fCfCfC;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.comment p {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 /*=========================================
