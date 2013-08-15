@@ -419,14 +419,26 @@ hr {
   width: 600px;
   margin: auto;
   background-color: #fCfCfC;
-  border-radius: 10px 10px 10px 10px;
+  box-shadow: -4px 4px 1px #757575;
+  -moz-box-shadow: -4px 4px 1px #757575;
+  -webkit-box-shadown: -4px 4px 1px #757575;
+  padding: 20px;
+  margin-top: 50px;
+  /*border-radius: 10px 10px 10px 10px;*/
 }
+
+/*#comment_form {*/
+  /*float: left;*/
+/*}*/
 
 .comment p {
   padding-left: 20px;
   padding-right: 20px;
 }
 
+.comment_form_label {
+
+}
 /*=========================================
     Tech
 =========================================*/
