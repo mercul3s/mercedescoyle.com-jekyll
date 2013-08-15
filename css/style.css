@@ -94,7 +94,7 @@ a:visited {
 =========================================*/
 
 div, img, hr, ul, li, img, p, a {
-  border: 1px solid red;
+  /*border: 1px solid red;*/
 }
 
 body {
