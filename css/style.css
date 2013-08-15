@@ -94,7 +94,7 @@ a:visited {
 =========================================*/
 
 div, img, hr, ul, li, img, p, a {
-  /*border: 1px solid red;*/
+  border: 1px solid red;
 }
 
 body {
@@ -355,6 +355,7 @@ hr {
 }
 
 .date p {
+  /*color: black;*/
   color: #efefef;
   font-size: .75em;
   display: inline;
@@ -388,7 +389,6 @@ hr {
   float: left;
 }
 
-
 #post {
   background-color: #fCfCfC;
   box-shadow: -4px 4px 1px #757575;
@@ -406,13 +406,41 @@ hr {
   margin: 20px;
 }
 
+#back_next_links {
+  width: 300px;
+  margin: auto;
+}
+
+#back_link {
+  float: left;
+}
+
+#next_link {
+  float: right;
+}
+
 /*=========================================
     Comments 
 =========================================*/
 #comments {
-  width: 700px;
+  width: 750px;
   margin: auto;
+  clear: both;
   margin-bottom: 100px;
+}
+
+#comment_form {
+  width: 550px;
+  margin: auto;
+}
+#comment_form label {
+  padding: 5px;
+  color: #f24405;
+}
+
+#comment_form input {
+  margin: 5px;
+  padding: 5px;
 }
 
 .comment {
@@ -424,21 +452,13 @@ hr {
   -webkit-box-shadown: -4px 4px 1px #757575;
   padding: 20px;
   margin-top: 50px;
-  /*border-radius: 10px 10px 10px 10px;*/
 }
-
-/*#comment_form {*/
-  /*float: left;*/
-/*}*/
 
 .comment p {
   padding-left: 20px;
   padding-right: 20px;
 }
 
-.comment_form_label {
-
-}
 /*=========================================
     Tech
 =========================================*/

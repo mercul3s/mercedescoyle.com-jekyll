@@ -6,12 +6,15 @@ layout: default
 TODO:
 - add intelligent back link to blog - links you back to the page you were on. Might do this by looping through the paginator var, and checking the page title, and linking back to that page.
  -->
-<a href="/blog/">back</a>
-<div id="post">
+<div class="post">
 <h1 class="title">{{ page.title }}</h1>
+<div class="date">
+	<p>{{ post.date | date: "%b %d, %Y"}}</p>
+</div>
 <hr class="title-divider" />
 <p>{{ content }}</p>
 </div>
+
 <!-- 
 	TODO: 
 	- Put for loop to go through comments and stagger
@@ -26,15 +29,22 @@ TODO:
 	- Date
 	- Comment
  -->
+
+<div id="back_next_links">
+<a href="/blog/" id="back_link"><= back to blog</a>
+<a href="/blog/#" id="next_link">next post =></a>
+</div>
 <div id="comments">
-	<form id="comment_form">
-		<ul>
-		<li><textarea  rows="10" cols="75" name="write_comment" ></textarea></li>
-		<li>
-			<label class="comment_form_label">Name or Handle:</label>
-			<label class="comment_form_label">Email:</label><input type="text" size="20" name="alias" />
-		<input type="text" size="20" name="email" /><input type="submit" /></li>
-	</form>
+	<div id="comment_form">
+		<form>
+			<textarea rows="10" cols="75" name="write_comment" id="comment_box" ></textarea>
+			<br />
+			<label>Name or Handle:</label>
+			<input type="text" size="20" name="alias" />
+			<label>Email:</label>
+			<input type="text" size="20" name="email" /><input type="submit" />
+		</form>
+	</div>
 	<!-- for comment in comments... -->
 	<div class="comment">
 		<p>This is a comment</p>
