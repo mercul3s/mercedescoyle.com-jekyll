@@ -2,3 +2,4 @@ _site
 wordpress
 .DS_Store
 *.psd
+*.log
