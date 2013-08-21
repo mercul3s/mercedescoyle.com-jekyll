@@ -32,17 +32,21 @@ TODO:
 
 <div id="back_next_links">
 <a href="/blog/" id="back_link"><= back to blog</a>
+{% if page.next %}
+	<p>{{ page.next.title }}</p>
+{% endif %}
 <a href="/blog/#" id="next_link">next post =></a>
 </div>
 <div id="comments">
 	<div id="comment_form">
-		<form>
-			<textarea rows="10" cols="75" name="write_comment" id="comment_box" ></textarea>
+		<form method='POST' action="#" id='comment'>
+			<input type="hidden" name="post_id" value="{{ page.id }}">
+			<textarea rows="10" cols="75" name="write_comment" id="comment_box" placeholder="All comments held for moderation." required></textarea>
 			<br />
-			<label>Name or Handle:</label>
-			<input type="text" size="20" name="alias" />
+			<label>Name:</label>
+			<input type="text" size="20" name="name" placeholder="Required" required />
 			<label>Email:</label>
-			<input type="text" size="20" name="email" /><input type="submit" />
+			<input type="email" size="20" name="email" placeholder="Required, not posted."/><input type="submit" />
 		</form>
 	</div>
 	<!-- for comment in comments... -->
