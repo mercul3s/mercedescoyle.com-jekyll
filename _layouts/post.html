@@ -1,11 +1,6 @@
 ---
 layout: default
 ---
-
-<!--
-TODO:
-- add intelligent back link to blog - links you back to the page you were on. Might do this by looping through the paginator var, and checking the page title, and linking back to that page.
- -->
 <div class="post">
 <h1 class="title">{{ page.title }}</h1>
 <div class="date">
@@ -15,21 +10,6 @@ TODO:
 <p>{{ content }}</p>
 </div>
 
-<!-- 
-	TODO: 
-	- Put for loop to go through comments and stagger
-	each one left or right.
-	- Make some javascript write comments to a logfile
-	- Use Rsyslog to scan that logfile and output comments to mongo or redis, send email on comment
-	- Write an approval github hook or script to add comments to the site
-	Data structure:
-	- Post ID
-	- Alias/username
-	- Email
-	- Date
-	- Comment
- -->
-
 <div id="post-navigation">
 	{% if page.next %}
 		<a href="{{ page.next.url }}"><= newer</a>
@@ -38,25 +18,4 @@ TODO:
 	{% if page.previous %}
 		<a href="{{ page.previous.url}}" id="next_link">older =></a>
 	{% endif %}
-</div>
-<div id="comments">
-	<div id="comment_form">
-		<form method='GET' action="localhost:4567/comment" id='comment'>
-			<input type="hidden" name="post_id" value="{{ page.id }}">
-			<textarea rows="10" cols="75" name="write_comment" id="comment_box" placeholder="All comments held for moderation." required></textarea>
-			<br />
-			<label>Name:</label>
-			<input type="text" size="20" name="name" placeholder="Required" required />
-			<label>Email:</label>
-			<input type="email" size="20" name="email" placeholder="Required, not posted."/><input type="submit" />
-		</form>
-	</div>
-	<!-- for comment in comments... -->
-	<!-- {% if comment %} -->
-	<div class="comment">
-		<p>This is a comment</p>
-		<p class="author">Author: Date:</p>
-	</div>
-	<!-- {% endif %} -->
-	<!-- endfor... -->
 </div>
