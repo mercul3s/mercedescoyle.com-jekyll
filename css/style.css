@@ -123,16 +123,6 @@ hr {
   border: none;
 }
 
-.thin-divider {
-  border: 0;
-  height: 1px;
-  width: 90%;
-  background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
-  background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
-  background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
-  background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
-}
-
 .header {
   width: 800px;
   height: 150px;
@@ -170,6 +160,10 @@ hr {
 #logo a {
   text-decoration: none;
 }
+
+/*=========================================
+   Navigation
+=========================================*/
 
 #navigation {
   width: 300px;
@@ -236,6 +230,18 @@ hr {
   margin-bottom: 50px;
 }
 
+.thin-divider {
+  border: 0;
+  height: 0.1em;
+  width: 100%;
+  /*background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+  background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+  background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+  background-image:*/      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+  float: right;
+  clear: both;
+}
+
 /*=========================================   
     Index page formatting 
 =========================================*/
@@ -251,16 +257,9 @@ hr {
     about page formatting 
 =========================================*/
 
-.about-header {
-  font-size: 120%;
-  text-align: left;
-  padding-left: 10px;
-  padding-top: 20px;
-}
-
 #about-content {
   width: 90%;
-  height: 200px;
+  height: auto;
   margin: auto;
   margin-bottom: 100px;
   padding: 15px;
@@ -270,31 +269,18 @@ hr {
   box-shadow: -4px 4px 1px #757575;
 }
 
-#columns p {
-  width: auto;
-  padding: 2px;
-  word-wrap: break-word;
-  float: left;
-  margin: 0px;
-}
-
-#left {
-  width: 33%;
-  height: 500px;
-  float: left;
-}
-
-#center {
-  width: 33%;
-  height: 500px;
-  float: left;
-}
-
-#right {
-  width: 33%;
-  height: 500px;
+#about-content h2 {
+  font-size: 1.5em;
+  color: #f24405;
   float: right;
+  clear: both;
 }
+
+/*#about-content p {
+  float: left;
+  clear: both;
+  text-align: justify;
+}*/
 
 /*=========================================
     blog index page formatting 
