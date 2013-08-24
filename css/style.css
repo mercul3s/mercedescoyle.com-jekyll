@@ -406,17 +406,16 @@ hr {
   margin: 20px;
 }
 
-#back_next_links {
-  width: 300px;
+#post-navigation{
+  width: 325px;
+  height: 30px;
   margin: auto;
 }
 
-#back_link {
+#post-navigation a {
   float: left;
-}
-
-#next_link {
-  float: right;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 /*=========================================
@@ -435,7 +434,6 @@ hr {
 }
 #comment_form label {
   padding: 5px;
-  color: #f24405;
 }
 
 #comment_form input {

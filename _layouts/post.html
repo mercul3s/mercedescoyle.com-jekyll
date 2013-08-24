@@ -30,16 +30,18 @@ TODO:
 	- Comment
  -->
 
-<div id="back_next_links">
-<a href="/blog/" id="back_link"><= back to blog</a>
-{% if page.next %}
-	<p>{{ page.next.title }}</p>
-{% endif %}
-<a href="/blog/#" id="next_link">next post =></a>
+<div id="post-navigation">
+	{% if page.next %}
+		<a href="{{ page.next.url }}"><= newer</a>
+	{% endif %}
+	<a href="/blog/" id="back_link">back to blog</a>
+	{% if page.previous %}
+		<a href="{{ page.previous.url}}" id="next_link">older =></a>
+	{% endif %}
 </div>
 <div id="comments">
 	<div id="comment_form">
-		<form method='POST' action="#" id='comment'>
+		<form method='GET' action="localhost:4567/comment" id='comment'>
 			<input type="hidden" name="post_id" value="{{ page.id }}">
 			<textarea rows="10" cols="75" name="write_comment" id="comment_box" placeholder="All comments held for moderation." required></textarea>
 			<br />
@@ -50,9 +52,11 @@ TODO:
 		</form>
 	</div>
 	<!-- for comment in comments... -->
+	<!-- {% if comment %} -->
 	<div class="comment">
 		<p>This is a comment</p>
 		<p class="author">Author: Date:</p>
 	</div>
+	<!-- {% endif %} -->
 	<!-- endfor... -->
 </div>
