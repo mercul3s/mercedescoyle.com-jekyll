@@ -5,33 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>{{ page.title }}</title>
     <meta name="viewport" content="width=device-width">
-
-    <!-- syntax highlighting CSS -->
     <link rel="stylesheet" href="/css/syntax.css">
-
-    <!-- Custom CSS -->
-    <!-- <link rel="stylesheet" href="/css/main.css"> -->
     <link rel="stylesheet" href="/css/style.css">
     <link href='http://fonts.googleapis.com/css?family=Monoton' rel='stylesheet' type='text/css'>
 
 </head>
 <body>
-<!--
-TODO:
-- DONE Fix scrollbar (shouldn't be scrollbar unless window size is smaller than page size)
-- DONE clip content of each post so that it shows a line or two
-- DONE Get pagination working properly
-- DONE left-align title, right-align date
-- DONE fix shifting header between blog and other pages
-- DONE padding between blog posts
-- dotted line divider (may need to use image)
-- finish up about page
-- finish up music page
-- finish up tech page
- -->
 <div class="main">
 
-  <div class="header">
+  <header class="header">
 
     <div id="navigation">
       <ul id="left-nav">
@@ -48,9 +30,9 @@ TODO:
         <div id="logo"><p>MC</p></div>
       </a>
   
-  </div>  
+  </header>  
       {{ content }}
-</div> <!-- /container -->
+</div>
 <div class="footer">
     <div class="contact">
         <a href="http://github.com/mercul3s"><img src="/images/github-48.png" width="48px" height="48px" alt="github link" class="footer-images" /></a>
