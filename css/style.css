@@ -344,7 +344,7 @@ hr {
 }
 
 .post p {
-  padding: 5px;
+  padding: 15px;
   clear: left;
   text-align: justify;
 }
@@ -397,6 +397,18 @@ hr {
 .post iframe {
   width: 560px;
   margin: auto;
+}
+
+.post img {
+  padding: 15px;
+}
+
+.img_left {
+  float: left;
+}
+
+.img_right {
+  float: right;
 }
 
 .date {
