@@ -6,7 +6,7 @@ tags:
 - tech
 status: publish 
 type: post
-published: true 
+published: false 
 date:   2013-12-31 14:01
 ---
 
