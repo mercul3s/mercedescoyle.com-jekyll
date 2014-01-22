@@ -2,3 +2,4 @@ name: Electronic Ephemera
 paginate: 5
 paginate_path: "/blog/page:num"
 permalink: /blog/:title
+exclude: [capistrano, mercedes@granpulse.axcella.net]
