@@ -6,7 +6,7 @@ tags:
 - tech
 type: post
 published: true
-date:	2016-09-18 13:16
+date:   2016-09-18 13:16
 ---
 I've recently started working on a fun new distributed systems project written in Elixir. Functional programming and immutable languages are a brave new world for me, and getting used to the syntax and structure has been a delightfully frustrating challenge. One of the first things I had a chance to dig into was writing some helper functions to call an API (Marathon, in this case). HTTPoison and its dependent library Hackney are pretty straightfoward and easy to use. 
 Here's a super simple example of an HTTP GET request using HTTPoison. Note: if you're not using [httpbin](httpbin.org) for http testing, you should! It provides a route for every HTTP verb with appropriate responses that you can test against, including one for testing response codes. You can also fork a copy and run it locally for testing so as not to depend on a live site. 
@@ -34,7 +34,16 @@ Here's the json fixture for our get request function:
       "url": "http://httpbin.org/get"
     },
     "response": {
-      "body": "{\n  \"args\": {}, \n  \"headers\": {\n    \"Host\": \"httpbin.org\", \n    \"User-Agent\": \"hackney/1.6.1\"\n  }, \n  \"origin\": \"127.0.0.1\", \n  \"url\": \"http://httpbin.org/get\"\n}\n",
+      "body": "{
+                \"args\": {},
+                \"headers\": 
+                  {
+                    \"Host\": \"httpbin.org\",
+                    \"User-Agent\": \"hackney/1.6.1\"
+                  },
+                \"origin\": \"127.0.0.1\",
+                \"url\": \"http://httpbin.org/get\"\n
+              }",
       "headers": {
         "Server": "nginx",
         "Date": "Sun, 18 Sep 2016 21:06:01 GMT",
@@ -58,10 +67,10 @@ defmodule HttpExamplesTest do
   
   @tag :get_request_test
   test "get request" do
-  	use_cassette "http_get_request" do
-  		request_data = HttpExamples.get_request
-  		assert Map.get(request_data, :status_code) == 200
-  	end
+    use_cassette "http_get_request" do
+      request_data = HttpExamples.get_request
+      assert Map.get(request_data, :status_code) == 200
+    end
   end
 end
 {% endhighlight %}
