@@ -34,7 +34,7 @@ Here's the json fixture for our get request function:
       "url": "http://httpbin.org/get"
     },
     "response": {
-      "body": "{\n  \"args\": {}, \n  \"headers\": {\n    \"Host\": \"httpbin.org\", \n    \"User-Agent\": \"hackney/1.6.1\"\n  }, \n  \"origin\": \"69.5.96.76\", \n  \"url\": \"http://httpbin.org/get\"\n}\n",
+      "body": "{\n  \"args\": {}, \n  \"headers\": {\n    \"Host\": \"httpbin.org\", \n    \"User-Agent\": \"hackney/1.6.1\"\n  }, \n  \"origin\": \"127.0.0.1\", \n  \"url\": \"http://httpbin.org/get\"\n}\n",
       "headers": {
         "Server": "nginx",
         "Date": "Sun, 18 Sep 2016 21:06:01 GMT",
