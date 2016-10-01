@@ -12,7 +12,7 @@ My husband and I both work in the tech industry, and the two of us have amassed 
 
 We started researching our options. Rather than buy a commercial rack mount router, we'd prefer to continue to use pfSense on our own hardware. We could have bought another [NUC](http://www.intel.com/content/www/us/en/nuc/overview.html) to run our router, but it only has one NIC, and it would be preferable to run our router over a physical NIC instead of a virtual one. So we started researching new servers. Even the most basic of servers would have more processing power than pfSense needs, since it's not very resource intensive. While hardware costs haven't gone down a ton, the amount of processing power, RAM, and storage you can get per dollar spent has increased dramatically. We could in theory save money by buying the most basic machine for our needs, but we'd still be overprovisioning and paying for unused compute power. Instead, it would make sense to try virtualizing our router and potentially other machines in the rack on a pool of compute resources.
 
-Based on our current hodepode of equipment and desired server usage, we came up with the following criteria:
+Based on our current hodgepodge of equipment and desired server usage, we came up with the following criteria:
 <ul>
     <li>* Ease of use</li>
     <li>* Pool of resources (disk, ram, CPU)</li>
