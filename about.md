@@ -7,10 +7,9 @@ permalink: /about/
 <img class="col one right" src="/img/prof_pic.jpg">
 
 <br/>
-Write your biography here. Tell the world about yourself. Link to your favorite <a href="http://reddit.com" target="blank">subreddit</a>. You can put a picture in, too. The code is already in, just name your picture "prof_pic.jpg" and put it in the img folder. 
+Mercedes writes code and wrangles servers from a 50-acre farm in rural Oregon, surrounded by chickens, turkeys, hazelnuts, and christmas trees. This setting has spawned an interesting number of side projects: a chicken coop monitoring system, home datacenter, and recipes to use up an overabundance of eggs.
 
-Link to your social media connections, too. This theme is set up to use <a href="http://fortawesome.github.io/Font-Awesome/" target="blank">Font Awesome icons</a>, like the ones below. Add your facebook, twitter, linkedin, or just disable all of them. 
-
+Cattle, not pets.
 
 <br/>
 <hr/>
@@ -23,7 +22,6 @@ Link to your social media connections, too. This theme is set up to use <a href=
 	<a href="https://twitter.com" target="_blank"><i class="fa fa-twitter-square"></i></a>
 </span>
 
-<div class="col three caption">
-	You can even add a little note about which of these is the best way to reach you.
-</div>
-
+<!-- <div class="col three caption">
+	
+</div> -->

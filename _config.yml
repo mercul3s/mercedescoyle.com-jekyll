@@ -1,8 +1,20 @@
-name: Electronic Ephemera
-paginate: 5
-paginate_path: "/blog/page:num"
-permalink: /blog/:title.html
-gems:
-  [jekyll-paginate]
-exclude:
-  [capistrano, mercedes@granpulse.axcella.net]
+# Site settings
+title: Electronic Ephemera
+email: me@mercedescoyle.com
+description: > 
+  Data. Devops. Farming.
+# baseurl:  mercedescoyle.com 
+url:  http://mercedescoyle.com 
+twitter_username: benzobot
+github_username:  mercul3s
+
+# Build settings
+markdown: kramdown
+
+highlighter: rouge 
+
+# Pagination
+paginate: 10
+paginate_path: "/blog/page:num/"
+
+gems: [jekyll-paginate]
