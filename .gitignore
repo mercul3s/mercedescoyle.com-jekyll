@@ -5,3 +5,6 @@ wordpress
 *.psd
 *.log
 fabfile.py*
+readme_old.md
+_posts_demo/*
+README.md
