@@ -1,47 +1,21 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>{{ page.title }}</title>
-    <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="/css/syntax.css">
-    <link rel="stylesheet" href="/css/style.css">
-    <link href='http://fonts.googleapis.com/css?family=Monoton' rel='stylesheet' type='text/css'>
 
-</head>
-<body>
-<div class="main">
+  {% include head.html %}
 
-  <header class="header">
+  <body>
 
-    <div id="navigation">
-      <ul id="left-nav">
-        <li><a href="{{ site.url }}/blog/" class="navigation" id="blog">blog</a></li>
-      </ul>
-      <ul id="right-nav">
-        <li><a href="{{ site.url }}/about.html" class="navigation" id="about">about</a></li>
-      </ul>
+    {% include header.html %}
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
     </div>
 
-    <hr />
+    <!-- {% include footer.html %} -->
 
-      <a href="{{ site.url }}/index.html">
-        <div id="logo"><p>MC</p></div>
-      </a>
-  
-  </header>  
-      {{ content }}
-</div>
-<div class="footer">
-    <div class="contact">
-        <a href="http://github.com/mercul3s"><img src="/images/github-48.png" width="48px" height="48px" alt="github link" class="footer-images" /></a>
-        <a href="http://twitter.com/benzobot"><img src="/images/twitter-48.png" width="48px" height="48px" alt="twitter link" class="footer-images" /></a>
-        <a href="http://www.linkedin.com/in/mercedescoyle"><img src="/images/linkedin-48.png" width="48px" height="48px" alt="linkedin link" class="footer-images" /></a>
-        <a href="/blog/rss.xml"><img src="/images/rss-48.png" width="48px" height="48px" alt="rss feed" class="footer-images"/></a>
-    </div>
-  </div>
-<script src="/scripts/jquery-1.9.1.min.js"></script>
-<script src="/scripts/functions.js"></script>
-</body>
+  </body>
+
 </html>

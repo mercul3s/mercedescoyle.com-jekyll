@@ -1,8 +1,34 @@
 ---
 layout: default
-title: Electronic Ephemera
 ---
 
-	<div id="content">
-		<img src="images/communication.png" id="communication" width="625px" height="430px" alt="communication" id="communication" />
-	</div>
+<div class="header-bar">
+  <h1>MC</h1>
+  <h2>Data. Devops. Farming.</h2>
+  <br/>
+  <hr>
+  <br/>
+</div>
+
+
+<ul class="post-list">
+    {% for post in paginator.posts %}
+      <li>
+        <h2><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+        <p class="post-meta">{{ post.date | date: '%B %-d, %Y — %H:%M' }}</p>
+        <p>{{ post.description }}</p>
+        <br/>
+        <hr/>
+      </li>
+    {% endfor %}
+</ul>
+
+<div id="paginator-pages">
+  {% if paginator.previous_page %}
+    {% if paginator.previous_page == 1 %}
+      <a href="/blog/">&lArr; Previous Page </a>
+    {% else %}
+      <a href="/blog/page{{paginator.previous_page }}"><= Previous Page</a>
+      {% endif %}
+  {% endif %}
+</div>
