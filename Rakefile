@@ -16,7 +16,7 @@ namespace :site do
     post_title = args[:title].downcase.tr(" ", "-")
     date = Time.now
     title = "#{date.strftime("%Y-%m-%d")}-#{post_title}"
-    File.open("blog/_posts/#{title}.md", 'w') {|f|
+    File.open("_posts/#{title}.md", 'w') {|f|
       f << "---\n"
       f << "layout: post\n"
       f << "title: \"#{args[:title]}\"\n"

@@ -58,11 +58,12 @@ Technology Support Specialist
 ---     
 
 **1U Home Datacenter:** Virtualized servers with SmartOS    
-Details in [this]({% post_url 2016-09-25-building-a-1u-home-datacenter-hardware-and-os %}) blog post    
-**Crabbot:** Slack bot for Otakorp  
+Details in [this]({% post_url 2016-09-25-building-a-1u-home-datacenter-hardware-and-os %}) blog post
 
+**Crabbot:** Slack bot for Otakorp  
 queries an API for event dates and ticket registration count using Python   
-**Lost and Found system:** Web App for tracking and returning items lost during Otakon’s annual convention  
+
+**Lost and Found system:** Web App for tracking and returning items lost during Otakon’s annual convention 
 Flask, MongoDB, and phonetic algorithms for search functionality
 
 # Technical Talks
@@ -89,8 +90,8 @@ B.A. Photography, San Francisco State University    Completed May 2005
 
 Otakon  *1/2014-present*    
 Department head for Information Desk and Volunteer Operations, Otakon Vegas
-Staff for Volunteer Operations and Lost and Found, Otakon Baltimore
-Software development projects to help automate tedious processes
+Staff for Volunteer Operations and Lost and Found, Otakorp
+Software development projects to help automate tedious processes, Code of Conduct committee
 
 GeekGirlCon *10/2016*   
 Helped convention attendees learn about demo video games and systems
