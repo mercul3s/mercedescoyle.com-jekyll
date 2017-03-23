@@ -69,7 +69,7 @@ Flask, MongoDB, and phonetic algorithms for search functionality
 ---
 
 **PyCon 2016:** [Build Serverless Realtime Data Pipelines with Python and AWS Lambda](http://mercul.es/1UiUHEV)  
-**OpenSourceBridge 2015:** [What’s in a name? Phonetic Algorithms for Search and Similarity](http://mercul.es/1EDEaqH)  
+**OpenSourceBridge 2015:** [What’s in a name? Phonetic Algorithms for Search and Similarity](http://mercul.es/2nLc78o)  
 **DevopsdaysSV 2014:** [Onboarding and Mentoring Apprentices with DevOps Culture](http://mercul.es/1Bp6pXH)
 
 # Skills

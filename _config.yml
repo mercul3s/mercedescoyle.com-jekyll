@@ -3,10 +3,10 @@ title: Electronic Ephemera
 email: me@mercedescoyle.com
 description: > 
   Data. Devops. Farming.
-# baseurl:  mercedescoyle.com 
-url:  http://mercedescoyle.com 
+# baseurl: #none
+url: http://mercedescoyle.com 
 twitter_username: benzobot
-github_username:  mercul3s
+github_username: mercul3s
 
 # Build settings
 markdown: kramdown
