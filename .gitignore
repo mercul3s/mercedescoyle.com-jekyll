@@ -1,6 +1,10 @@
+.sass-cache
 _site
 wordpress
 .DS_Store
 *.psd
 *.log
 fabfile.py*
+readme_old.md
+_posts_demo/*
+README.md
