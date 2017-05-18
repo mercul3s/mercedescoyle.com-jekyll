@@ -22,7 +22,7 @@ Here's a super simple example of an HTTP GET request in Elixir using HTTPoison. 
 The with statement is used to split out the returned tuple into two parts: the default :ok return from elixir, and the HTTP response, which is what we're actually interested in. If we were to write additional statements in the with block, it provides a way of early return without having to write in try/catch exception handling.
 With that out of the way, let's move on to testing. Now, we could run our tests using standard unit testing, and assert that we get a return value of 200 whenever we call our get_request function. However, this would probably fail under certain conditions. If the site we're calling goes down or times out, our test fails, even if our code is actually doing what it is supposed to be doing. In addition, we don't really want to be hitting a site we don't own with a bunch of requests, especially if there are API concurrency limits. Instead of testing with an actual HTTP request, we want to mock the request and response data to have a predictable return value that indicates whether or not our function is working properly. This is where ExVCR comes in. Basically, ExVCR records the request/and response on the first run, and stores it as a JSON fixture in your test directory. During subsequent test runs, ExVCR intercepts the call to the http library, and instead uses the request/response JSON data in the fixture. The end result? Magic!
 
-![Alt magic](/images/shia-magic.gif)
+![Alt magic](/img/shia-magic.gif)
 
 Here's the json fixture for our get request function:
 {% highlight json %}
