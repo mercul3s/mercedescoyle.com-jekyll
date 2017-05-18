@@ -8,6 +8,7 @@ permalink: /about/
 
 <br/>
 Mercedes writes code and wrangles servers from a 50-acre farm in rural Oregon, surrounded by chickens, turkeys, hazelnuts, and christmas trees. This setting has spawned an interesting number of side projects: a chicken coop monitoring system, home datacenter, and recipes to use up an overabundance of eggs.
+Sometimes she gives talks on [serverless architecture](https://www.youtube.com/watch?v=EpCHD9AIHAM) and [devops and mentoring culture](https://vimeo.com/album/3173642/video/115484860).
 
 Cattle, not pets.
 
