@@ -9,6 +9,10 @@ permalink: /resume/
 me@mercedescoyle.com    
 [github.com/mercul3s](http://github.com/mercul3s) 
 
+# Interests
+---
+Automation, Systems Architecture, Chatops, Microservices. Hire me! I'm looking for a remote-friendly team building infrastructure and tooling for a smooth development process.
+
 # Experience
 
 ---     
