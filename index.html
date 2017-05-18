@@ -29,9 +29,7 @@ pagination:
   {% if paginator.total_pages > 1 %}
     {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}"> &lArr; Newer</a>
-      <!-- <a href="/blog/">&lArr; Previous Page </a> -->
     {% endif %}
-      <!-- <a href="/blog/page{{paginator.previous_page }}"><= Previous Page</a> -->
     {% if paginator.next_page %}
     <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older &rArr;</a>
     {% endif %}
