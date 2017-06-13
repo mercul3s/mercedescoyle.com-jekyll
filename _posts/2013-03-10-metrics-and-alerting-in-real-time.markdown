@@ -6,7 +6,6 @@ status: draft
 type: post
 published: false
 meta:
-  _edit_last: '1'
 ---
 One of the projects I'm working on is making all of our real time data visible and actionable through visualization and alerting. There are a myriad of analytics, reporting, alerting, and visualization tools out there, and we're experimenting with a handful. Much of my job will be to get familiar with our current monitoring tools, help build and use our in house events system, and route important events (errors, revenue events, or large fluctuations in events) to a visible metrics dashboard.
 

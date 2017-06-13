@@ -8,8 +8,6 @@ tags:
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '1'
 ---
 I started <a href="http://www.hackbrightacademy.com" title="hackbright" target="_blank">Hackbright</a> today! My classmates are a great bunch of women, who are interesting, enthusiastic, and energetic. I'm a little exhausted from all the social interaction - day one was a lot of getting to know one another, socializing, lunching, and going over the semantics for the next 10 weeks. I'm stoked to be around some really creative ladies with diverse backgrounds, though it seems we all at least have one or two interests in common. I can't wait to see what everyone comes up with.
 

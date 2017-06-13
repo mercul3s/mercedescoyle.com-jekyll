@@ -8,7 +8,5 @@ tags:
 status: publish
 type: post
 published: false 
-meta:
-  _edit_last: '1'
 ---
 It's called structure, and it's pretty sweet. Simple, minimal, and customizable. Yay!

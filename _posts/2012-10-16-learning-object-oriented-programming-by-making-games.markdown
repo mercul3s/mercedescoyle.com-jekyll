@@ -8,8 +8,6 @@ tags:
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '1'
 ---
 The past two days at Hackbright, we've tackled Objects, Classes, Inheritance, and Objects Interacting by filling in a cute little puzzle game using <a href="http://www.pyglet.org/index.html">Pyglet</a> to render our graphics. Sanby and I had a lot of fun with this one; she introduced me to the <a title="Manul" href="http://en.wikipedia.org/wiki/Pallas's_cat">Manul</a>, and we made it our personal mascot throughout the exercise. Here's a screencap of our gameboard:  
 

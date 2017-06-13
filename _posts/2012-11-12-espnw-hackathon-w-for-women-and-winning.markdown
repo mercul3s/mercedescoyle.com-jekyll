@@ -9,8 +9,6 @@ tags:
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '1'
 ---
 I finally attended my first hackathon! The espnW hackathon was a 1-day hackathon starting on the evening of Nov 9th for networking, dinner, and team formation, with a deadline of Saturday at 6pm for app completion. Not a lot of time to make an app, so it was a challenge, but I had a lot of fun and met some great people. I teamed up with Erin Parker, who pitched an idea for an app to help women find out how to use strength training equipment in the gym. The premise was that most women are too intimidated with men around to use weights and weightlifting equipment, and it's really hard to find videos online with exclusively women teaching how to use said equipment. Also teaming up were Meredith Prince and Susan Tan, two awesome pythonistas from Hackbright. I liked Erin's idea since it was simple, and as I had a similar idea myself: after failing pretty hard trying to learn how to snowboard, I turned to youtube and the internet, and had some success finding how-to snowboard videos. I wanted to create an app or web resource that would compile how-to videos across all different sports, with an easy to use interface that would do the youtube searching for you, catering videos for women by women. 
 

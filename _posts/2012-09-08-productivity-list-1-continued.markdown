@@ -5,8 +5,6 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '1'
 ---
 Week one of funemployment, and I've gotten some things done on my to-do list! But I have so much more left to do.
 <ul>

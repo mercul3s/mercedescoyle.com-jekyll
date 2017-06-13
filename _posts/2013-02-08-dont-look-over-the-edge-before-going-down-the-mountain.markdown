@@ -6,7 +6,6 @@ status: publish
 type: post
 published: true
 meta:
-  _edit_last: '1'
 ---
 I recently spent a lucky few days playing in snow with <a title="Erica's Blog" href="http://startupmymind.com/" target="_blank">great</a> <a title="Moon's Blog" href="http://moonlimb.github.com/" target="_blank">friends</a>, amidst steep cliffs and fresh powder. Since I'm still a bit of a beginner, I had more than a few tumbles, and had to talk myself out of fear and anxiety that comes with facing a downhill slope with a board strapped to my feet, and being ok with the possibility that I might fall along the way.
 

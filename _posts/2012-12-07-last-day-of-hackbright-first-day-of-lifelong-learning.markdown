@@ -9,8 +9,6 @@ tags:
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '1'
 ---
 It really hasn't hit me yet that this amazing 10 weeks of collaborative learning, problem solving, sometimes frustration, epiphanies, and bonding with 15 other indescribably fantastic women is coming to an end. I've been so focused on writing code the past few weeks that my keyboard has not had a purpose for anything resembling the english language. It's been difficult to put into words how transformative this experience has been for me. In my previous attempts to learn programming and bash (ha ha) my way into system administration, I often felt confused and completely in the dark, without even the language to articulate to my colleagues what I needed help with. I had some failures, and some definite wins; but overall, it was an experience that left me drained and frustrated. I felt like I had all these little pieces that I had figured out independently, but no clue as to how to put them all together. I was stuck, intimidated, and a little resentful of those who were able to connect the dots so easily.
 

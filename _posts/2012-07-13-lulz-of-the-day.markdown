@@ -5,8 +5,6 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '1'
 ---
 ![Alt Windoze](/img/windoze.png)  
 

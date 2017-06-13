@@ -8,8 +8,6 @@ tags:
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '1'
 ---
 I planned to sum up the first week with a blog post on Friday night, but like everyone else, I was completely wiped. It's a good kind of exhaustion, born of concentration, writing code, and communicating constantly with each person I've paired with. So far, I've worked with Louise, Eleonore, Sonya, Nicole, and Michelle - just 5 out of the 16 amazing women in my group. I've been most impressed with the level of rapport and dedication amongst everyone here. For the first time in any classroom, I feel like everyone is well matched despite backgrounds and ability levels. No one is intimidated, no one is holding anyone back. And these women are so smart! There has been some fascinating lunchtime conversation, and everyone I have paired with so far has been quick to find solutions to programming challenges. We're focused and working hard, and eager to do more. It was around the 3rd day that most were already at computers working before our 10am start time, and often a few have stayed through breaks or at the end of the day to keep plowing through.
 

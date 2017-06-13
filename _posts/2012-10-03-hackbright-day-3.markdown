@@ -8,8 +8,6 @@ tags:
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '1'
 ---
 INTENSE. I probably do more talking in a day than I usually do in a week, even while at work. Pair programming is hard work, but it's completely rewarding. Working with a pair allows you to be more thorough, since that second set of eyes will catch things you miss, and solving problems becomes much much faster when you talk through it. Having your hands on a keyboard and screen you share makes it easier to type out code and both being able to edit it without an awkward back and forth. We're working on problem solving, based on Zed Shaw's <a href="learnpythonthehardway.org" title="Learn Python" target="_blank">Learn Python the Hard Way</a>. Going through exercises 2 or three times (I've already been through nearly all of the book once) seems a little tedious at first, but it really hones in on key ideas and syntax, and Python is all about syntax. 
 

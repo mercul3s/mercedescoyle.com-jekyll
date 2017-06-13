@@ -8,7 +8,6 @@ status: publish
 type: post
 published: true
 meta:
-  _edit_last: '1'
 ---
 I tend to think of myself as a frugal person; not extremely so, but spending a large amount of hard earned money is a long thought out decision, with rationalization and careful calculations to make sure I'm spending wisely. I've never been without a job, and often worked 30-40 hours a week in college to pay for food, rent, and gas.  I'm fortunate that I was able to have enough of a savings cushion that I could pay for Hackbright outright and have living expenses for several months that I was doing the program. I'm also very fortunate that I have an incredibly supportive partner who was willing to cover our rent for the duration of Hackbright and until I found employment. I know that the cost of Hackbright, and similar web development bootcamps\* can be a big factor in even the decision to apply. Since everyone I've talked to has brought it up, I'd like to make the case for why spending the money on Hackbright can be repaid in the not to distant future.
 

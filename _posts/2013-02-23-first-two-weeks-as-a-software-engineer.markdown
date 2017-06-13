@@ -9,7 +9,6 @@ status: publish
 type: post
 published: true
 meta:
-  _edit_last: '1'
 ---
 About a week ago, a friend of mine welcomed me back to the world of the gainfully employed. Last week I started working as a Software Engineer at <a title="Real Gravity" href="http://www.realgravity.com/" target="_blank">Real Gravity</a>, and it's been a whirlwind of Ruby, Agile Development, ssh keys, config files, spec tests, commits, and lots more. I'm really excited to be part of this team, and happy that I get to build my programming chops working with a great group of people on coding challenges I'm really interested in.
 

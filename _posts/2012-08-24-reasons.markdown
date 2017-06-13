@@ -5,8 +5,6 @@ tags: []
 status: draft
 type: post
 published: false
-meta:
-  _edit_last: '1'
 ---
 Glad that I'm no longer going to be doing desktop support:
 

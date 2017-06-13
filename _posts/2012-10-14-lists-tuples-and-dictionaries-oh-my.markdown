@@ -10,8 +10,6 @@ tags:
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '1'
 ---
 Only week 2, and I already managed to get sick. I spent the past week in a head-cold induced haze, which seemed to make focus and learning a bit difficult for me. Since we're going at such a quick pace, I didn't take a sick day, which may have lengthened my cold a bit. We dove head first into dictionaries, lists, and tuples, with a number of exercises designed to teach us how to read, write, remove, and substitute or reassign data.
 

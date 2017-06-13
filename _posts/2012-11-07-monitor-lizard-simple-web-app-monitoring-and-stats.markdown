@@ -8,8 +8,6 @@ tags:
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '1'
 ---
 Start of week 6!!! We're on to personal projects, and everyone is heads down in planning and coding. We went over ideas and initial planning about a week before, and Monday morning, we jumped right in. Since I have a fantastic mentor who challenges me, I had already started fleshing out a basic app with one working service - checking HTTP response codes. My goal for Tuesday morning (my usual mentoring session) was to get it working and deployed to Heroku. Success, with a few banging head on keyboard moments, detailed below.
 

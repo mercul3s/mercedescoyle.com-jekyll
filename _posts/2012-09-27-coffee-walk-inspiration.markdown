@@ -5,8 +5,6 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '1'
 ---
 Everyone tells you that exercise is good for you, that it does all sorts of great things for your body and mind. I've never been one to exercise except when I have to. You see, I was your typical bookish nerdy kid who was never good in P.E, got made fun of, and generally despised physical activity with my peers. Run a mile? Are you kidding? I could barely run a minute! Gym class was torturous, as we never actually trained to do anything - we just did it. No idea how to play soccer, or what the rules are? That's ok, no one else does, and there are balls, kicking, and running involved. Uh-huh. My peers were a bit envious, however, when I was able to skip out of weeks of swimming due to my ear issues.
 

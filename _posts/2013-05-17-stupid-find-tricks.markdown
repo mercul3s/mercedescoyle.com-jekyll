@@ -7,8 +7,6 @@ tags:
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '1'
 ---
 Every time I learn another use case or tip for using find, I have a new appreciation for the power behind this tool. At its core, find is a handy command line search utility with a few special powers. A coworker aptly nicknamed it the "swiss army knife" of shell commands. I'll go one step further and nickname it the rocket surgeon's swiss army scalpel, for unlike the swiss army knife with its array of tools that are half suited for many little jobs, find's precision comes from a multitude of command line options, and the ability to execute additional commands on the output of a search with find.
 

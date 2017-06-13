@@ -7,8 +7,6 @@ tags:
 status: draft
 type: post
 published: false
-meta:
-  _edit_last: '1'
 ---
 About 4 years ago I became smitten with the idea of becoming an aquarist. My boyfriend had a gigantic turtle tank, with one wild-born red eared slider he picked up in Florida. I had just moved into my very own studio apartment, and thought it might be cool to get a fish tank, since I was allergic to cats and the boyfriend allergic to anything furry. My previous experience with fish, besides the eating kind, was a 10-gallon tank filled with too many fancy goldfish that our cats became more fascinated with than us kids. Needless to say, those fish did not fare well. My adult self wanted to make up for it.
 

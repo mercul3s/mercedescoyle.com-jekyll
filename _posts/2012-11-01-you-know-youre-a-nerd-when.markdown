@@ -7,8 +7,6 @@ tags:
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '1'
 ---
 You can make jokes about object oriented programming, SQL commands, and Git. During our afternoon break, a number of us ventured out for coffee and post-halloween discounted candy. Those seeking coffee walked with us to Walgreens, and then 'branched' our trip and went to get coffee. The remainder of us roamed the aisles searching for elusive non-crappy halloween candy, and made references to each of us being functions and objects, specifically objectified women (ha ha) with functions for seeking out candy. We also referred to waiting in line to purchase said candy as threading (maybe a little inaccurately), especially when another register opened up and two of our cohort bolted to be first in line.
 

@@ -8,8 +8,6 @@ tags:
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '1'
 ---
 Having frustrating experiences with web applications and software is one of the reasons I'm learning how to build software at Hackbright Academy. In my previous life as a desktop support admin, I spent a lot of time figuring out and reporting bugs in other developers' software, or showing people how to use software that was less than intuitive. I've also spent a ton of time stabilizing and fixing OS X server, specifically Open LDAP - and as a consequence I now love linux more than ever, and harbor a bit of ill will towards OS X server. For the moment, I'm going to talk about payment processing, and some observations on how to do it better from a customer-facing perspective.
 
