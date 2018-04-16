@@ -17,7 +17,7 @@ highly complex and quickly changing environment with few guardrails. In previous
 jobs, I spent a lot of time fixing software problems, much of that time with
 black box software or hardware and people upset that their tools weren't
 working. Newly minted with the power of software creation, I didn't want to be
-the person who made someone have a bad day.
+the person who made someone have a bad day because of my bad code.
 
 My first real Software Engineering position was a bit 
 of coding, a bit of ops, a lot of question asking (of peers and the internet), 
