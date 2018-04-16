@@ -12,7 +12,14 @@ date: 2018-04-16 12:05
 > "You'll know good code when you see it."
 
 Early in my career, this was oft repeated to me when I inquired of my peers what
-constituted "good code". My first real Software Engineering position was a bit 
+constituted "good code". As a new engineer, I was attempting to make sense of a
+highly complex and quickly changing environment with few guardrails. In previous
+jobs, I spent a lot of time fixing software problems, much of that time with
+black box software or hardware and people upset that their tools weren't
+working. Newly minted with the power of software creation, I didn't want to be
+the person who made someone have a bad day.
+
+My first real Software Engineering position was a bit 
 of coding, a bit of ops, a lot of question asking (of peers and the internet), 
 and just trying to see what worked. I learned a ton from that experience, 
 especially about system design and debugging. When you're new to engineering, just 
@@ -49,8 +56,8 @@ more readily. In my quest for learning and writing good code, I've been looking
 for the wrong thing, and asking the wrong question. There is no good code because
 there is *no one method or pattern* of writing good code or infrastructure. A few
 wise folks tried to gently nudge me in the right direction a handful of times, 
-but also wisely knew to let me forge my own path (when I once asked a 
-recommendation for good examples of architecture diagrams, said wise friends 
+but also wisely knew to let me forge my own path (when I once asked for a 
+recommendation of good examples of architecture diagrams, said wise friends 
 instead pointed me to a Google search for "spaghetti on the wall"). One can only
 learn so much from studying architecture patterns and algorithms - the context 
 for why code was written reveals so much more.
