@@ -78,34 +78,31 @@ Technology Support Specialist
 ---     
 
 **OSS Contributes**
-[Sensu Go](http://github.com/sensu/sensu-go)
-[Community maintained Sensu Go Chef cookbook](http://github.com/sensu/sensu-go-chef)
+[Sensu Go](http://github.com/sensu/sensu-go)  
+[Community maintained Sensu Go Chef cookbook](http://github.com/sensu/sensu-go-chef)  
 
-**1U Home Datacenter:** Virtualized servers with SmartOS    
-Details in [this]({% post_url 2016-09-25-building-a-1u-home-datacenter-hardware-and-os %}) blog post
-
+**1U Home Datacenter:** Virtualized servers with SmartOS Details in [this]({% post_url 2016-09-25-building-a-1u-home-datacenter-hardware-and-os %}) blog post  
 **Crabbot:** Slack bot for Otakorp  
-Answers common questions such as event dates and ticket registration count using Python against a simple HTTP API 
-
+Answers common questions such as event dates and ticket registration count using Python against a simple HTTP API  
 **Lost and Found system:** Web App for tracking and returning items lost during Otakon’s annual convention 
 Flask, MongoDB, and phonetic algorithms for search functionality
 
 # Technical Talks
 ---
 
-**Monitorama 2018:** [Building Open Source Monitoring Tools](https://vimeo.com/274820910)
+**Monitorama 2018:** [Building Open Source Monitoring Tools](https://vimeo.com/274820910)  
 **PyCon 2016:** [Build Serverless Realtime Data Pipelines with Python and AWS Lambda](https://www.youtube.com/watch?v=EpCHD9AIHAM)  
 **OpenSourceBridge 2015:** [What’s in a name? Phonetic Algorithms for Search and Similarity](https://confreaks.tv/videos/osbridge2015-what-s-in-a-name-phonetic-algorithms-for-search-and-similarity)  
-**DevopsdaysSV 2014:** [Onboarding and Mentoring Apprentices with DevOps Culture](https://vimeo.com/album/3173642/video/115484860)
+**DevopsdaysSV 2014:** [Onboarding and Mentoring Apprentices with DevOps Culture](https://vimeo.com/album/3173642/video/115484860)  
 
 # Skills
 ---
 
-**Languages and Frameworks:** Go, Python, Ruby, Elixir, SQL, Flask, Sinatra, Arduino
-**Data Stores and Processing:** Etcd, PostgreSQL, Redis, MongoDB, ELK, ZeroMQ, RabbitMQ, Rsyslog, AWS Lambda, AWS Kinesis
-**Infrastructure tools:** AWS, Chef, Terraform, Docker, nginx, TravisCI, Jenkins 
-**Monitoring tools:** Sensu, DataDog, Statsd, Grafana 
-**Methodologies:** Kanban, DevOps, Continuous Delivery
+**Languages and Frameworks:** Go, Python, Ruby, Elixir, SQL, Flask, Sinatra, Arduino  
+**Data Stores and Processing:** Etcd, PostgreSQL, Redis, MongoDB, ELK, ZeroMQ, RabbitMQ, Rsyslog, AWS Lambda, AWS Kinesis  
+**Infrastructure tools:** AWS, Chef, Terraform, Docker, nginx, TravisCI, Jenkins  
+**Monitoring tools:** Sensu, DataDog, Statsd, Grafana  
+**Methodologies:** Kanban, DevOps, Continuous Delivery  
 
 # Education
 ---
@@ -113,17 +110,17 @@ Flask, MongoDB, and phonetic algorithms for search functionality
 B.A. Photography, San Francisco State University    Completed May 2005
 
 # Volunteering
-Kumoricon *10/2017-present*
-Co department lead for Cosplay Repair: help manage and direct volunteers, assist
-convention attendees with various materials repairs
+Kumoricon *10/2017-present*  
+**Co department lead for Cosplay Repair**:  
+help manage and direct volunteers, assist convention attendees with various materials repairs
 
 Otakon  *1/2014-present*    
-Department head for Information Desk and Volunteer Operations, Otakon Vegas:
+**Department head for Information Desk and Volunteer Operations, Otakon Vegas:**  
 Direct volunteers, help attendees with information and locations at the
-convention
-Staff for Volunteer Operations and Lost and Found, Otakorp
+convention  
+**Staff for Volunteer Operations and Lost and Found, Otakorp:**  
 Software development projects to help automate tedious processes, Code of Conduct committee
 
 GeekGirlCon *10/2016*   
-Helped convention attendees learn about demo video games and systems
-Counted crowds and managed line control for workshop events
+**General volunteer:** Helped convention attendees learn about demo video games and systems  
+Counted crowds and managed line control for workshop events  
