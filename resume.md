@@ -21,9 +21,10 @@ Speaking, Technical Writing. Hire me! I'm looking for a remote-friendly team bui
 *6/2017 - 10/2018*
 
 Software Engineer, [Sensu-Go](https://github.com/sensu/sensu-go)
-- Collaborated with a team with 7 fellow developers on the open source sensu-go codebase, writing testable, reusable, and readable code.
+- Collaborated on a team with 7 fellow developers on the open source sensu-go codebase, writing testable, reusable, and readable code.
 - Removed operational roadblocks to help smooth out our development process.
   - Enabled faster development, debugging, and release cycles by writing a terraform plan for a clustered staging environment on AWS 
+  - Contributed resources to [sensu-go-chef](https://github.com/sensu/sensu-go-chef) 
 - Onboarded new engineers by walking through the codebase and pairing on feature development.
 - Dug deep into etcd features, performance, and clustering.
 - Notable accomplishments: 
@@ -76,6 +77,10 @@ Technology Support Specialist
 
 # Projects  
 ---     
+
+**OSS Contributes**
+[Sensu Go](http://github.com/sensu/sensu-go)
+[Community maintained Sensu Go Chef cookbook](http://github.com/sensu/sensu-go-chef)
 
 **1U Home Datacenter:** Virtualized servers with SmartOS    
 Details in [this]({% post_url 2016-09-25-building-a-1u-home-datacenter-hardware-and-os %}) blog post
