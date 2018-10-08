@@ -27,7 +27,7 @@ Software Engineer, [Sensu-Go](https://github.com/sensu/sensu-go)
 - Onboarded new engineers by walking through the codebase and pairing on feature development.
 - Dug deep into etcd features, performance, and clustering.
 - Notable accomplishments: 
-  - Refactored keepalive and check ttl [backend monitor code] to ensure they
+  - Refactored keepalive and check ttl backend monitor code to ensure monitors 
   were [reusable](https://github.com/sensu/sensu-go/pull/897) and [safely coordinated](https://github.com/sensu/sensu-go/pull/1699) across a cluster of sensu-backend nodes.
   - Implemented a [durable, etcd backed queue](https://github.com/sensu/sensu-go/pull/937) for use with adhoc check requests.
   - Paired with a colleague to plan, spec, rewrite, and reorganize [sensu-go documentation](https://docs.sensu.io/sensu-core/2.0/). Revised language from a software developer focused, out of date reference, to operator centered getting started guides and complete api references.
