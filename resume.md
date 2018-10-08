@@ -11,11 +11,27 @@ me@mercedescoyle.com
 
 # Interests
 ---
-Automation, Systems Architecture, Chatops, Microservices. Hire me! I'm looking for a remote-friendly team building infrastructure and tooling for a smooth development process.
+Automation, Systems Architecture, Chatops, Backend Software Engineering, Public
+Speaking, Technical Writing. Hire me! I'm looking for a remote-friendly team building infrastructure and tooling for a smooth development process.
 
 # Experience
 
 ---     
+**Sensu**
+*6/2017 - 10/2018*
+
+Software Engineer, [Sensu-Go](https://github.com/sensu/sensu-go)
+- Collaborated with a team with 7 fellow developers on the open source sensu-go codebase, writing testable, reusable, and readable code.
+- Removed operational roadblocks to help smooth out our development process.
+  - Enabled faster development, debugging, and release cycles by writing a terraform plan for a clustered staging environment on AWS 
+- Onboarded new engineers by walking through the codebase and pairing on feature development.
+- Dug deep into etcd features, performance, and clustering.
+- Notable accomplishments: 
+  - Refactored keepalive and check ttl [backend monitor code] to ensure they
+  were [reusable](https://github.com/sensu/sensu-go/pull/897) and [safely coordinated](https://github.com/sensu/sensu-go/pull/1699) across a cluster of sensu-backend nodes.
+  - Implemented a [durable, etcd backed queue](https://github.com/sensu/sensu-go/pull/937) for use with adhoc check requests.
+  - Paired with a colleague to plan, spec, rewrite, and reorganize [sensu-go documentation](https://docs.sensu.io/sensu-core/2.0/). Revised language from a software developer focused, out of date reference, to operator centered getting started guides and complete api references.
+
 **Comcast** 
 
 *7/2016 - 2/2017*               
@@ -65,7 +81,7 @@ Technology Support Specialist
 Details in [this]({% post_url 2016-09-25-building-a-1u-home-datacenter-hardware-and-os %}) blog post
 
 **Crabbot:** Slack bot for Otakorp  
-queries an API for event dates and ticket registration count using Python   
+Answers common questions such as event dates and ticket registration count using Python against a simple HTTP API 
 
 **Lost and Found system:** Web App for tracking and returning items lost during Otakon’s annual convention 
 Flask, MongoDB, and phonetic algorithms for search functionality
@@ -73,16 +89,18 @@ Flask, MongoDB, and phonetic algorithms for search functionality
 # Technical Talks
 ---
 
-**PyCon 2016:** [Build Serverless Realtime Data Pipelines with Python and AWS Lambda](http://mercul.es/1UiUHEV)  
-**OpenSourceBridge 2015:** [What’s in a name? Phonetic Algorithms for Search and Similarity](http://mercul.es/2nLc78o)  
-**DevopsdaysSV 2014:** [Onboarding and Mentoring Apprentices with DevOps Culture](http://mercul.es/1Bp6pXH)
+**Monitorama 2018:** [Building Open Source Monitoring Tools](https://vimeo.com/274820910)
+**PyCon 2016:** [Build Serverless Realtime Data Pipelines with Python and AWS Lambda](https://www.youtube.com/watch?v=EpCHD9AIHAM)  
+**OpenSourceBridge 2015:** [What’s in a name? Phonetic Algorithms for Search and Similarity](https://confreaks.tv/videos/osbridge2015-what-s-in-a-name-phonetic-algorithms-for-search-and-similarity)  
+**DevopsdaysSV 2014:** [Onboarding and Mentoring Apprentices with DevOps Culture](https://vimeo.com/album/3173642/video/115484860)
 
 # Skills
 ---
 
-**Languages and Frameworks:** Python, Ruby, Elixir, Clojure, GraphQL, SQL, Flask, Sinatra, Arduino
-**Data Stores and Processing:** PostgreSQL, Storm, Redis, MongoDB, Hadoop, Hive, Oozie, ELK, ZeroMQ, RabbitMQ, Rsyslog, AWS Lambda, AWS Kinesis
-**Infrastructure tools and systems:** AWS, Chef, nginx, TravisCI, Jenkins, SparkleFormation, MaxCDN, DataDog, NewRelic, Statsd, PagerDuty, Mesos/Marathon, SmartOS
+**Languages and Frameworks:** Go, Python, Ruby, Elixir, SQL, Flask, Sinatra, Arduino
+**Data Stores and Processing:** Etcd, PostgreSQL, Redis, MongoDB, ELK, ZeroMQ, RabbitMQ, Rsyslog, AWS Lambda, AWS Kinesis
+**Infrastructure tools:** AWS, Chef, Terraform, Docker, nginx, TravisCI, Jenkins 
+**Monitoring tools:** Sensu, DataDog, Statsd, Grafana 
 **Methodologies:** Kanban, DevOps, Continuous Delivery
 
 # Education
@@ -91,9 +109,14 @@ Flask, MongoDB, and phonetic algorithms for search functionality
 B.A. Photography, San Francisco State University    Completed May 2005
 
 # Volunteering
+Kumoricon *10/2017-present*
+Co department lead for Cosplay Repair: help manage and direct volunteers, assist
+convention attendees with various materials repairs
 
 Otakon  *1/2014-present*    
-Department head for Information Desk and Volunteer Operations, Otakon Vegas
+Department head for Information Desk and Volunteer Operations, Otakon Vegas:
+Direct volunteers, help attendees with information and locations at the
+convention
 Staff for Volunteer Operations and Lost and Found, Otakorp
 Software development projects to help automate tedious processes, Code of Conduct committee
 
