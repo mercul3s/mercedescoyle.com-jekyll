@@ -24,7 +24,6 @@ Software Engineer, [Sensu-Go](https://github.com/sensu/sensu-go)
 - Collaborated on a team with 7 fellow developers on the open source sensu-go codebase, writing testable, reusable, and readable code.
 - Removed operational roadblocks to help smooth out our development process.
   - Enabled faster development, debugging, and release cycles by writing a terraform plan for a clustered staging environment on AWS 
-  - Contributed resources to [sensu-go-chef](https://github.com/sensu/sensu-go-chef) 
 - Onboarded new engineers by walking through the codebase and pairing on feature development.
 - Dug deep into etcd features, performance, and clustering.
 - Notable accomplishments: 
