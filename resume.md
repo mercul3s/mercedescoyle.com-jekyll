@@ -117,7 +117,7 @@ Arduino, Function as a Service (Lambda, Google Cloud Functions, Openfaas)
 **Data Stores and Processing:** Etcd, PostgreSQL, Redis, MongoDB, Elasticsearch, ZeroMQ,
 RabbitMQ, Rsyslog, Kinesis   
 **Infrastructure tools:** Kubernetes, GCP, AWS, Chef, Terraform, Helm, Docker  
-**Monitoring tools:** Sensu, DataDog, Statsd, Grafana, Prometheus, ELK stack 
+**Monitoring tools:** Sensu, DataDog, Statsd, Grafana, Prometheus, ELK stack  
 **Methodologies:** Kanban, DevOps, Continuous Delivery  
 
 # Education
