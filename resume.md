@@ -20,7 +20,7 @@ doing meaningful work.
 ---     
 **Percy**
 
-*11/2018 - 5/2019*
+*11/2018 - 5/2019*   
 Senior Software Engineer, Infrastructure
 - Prototyped and executed function as a service solution to prove out viability
 of rewriting browser rendering as a function, instead of a kubernetes backed rendering cluster
@@ -33,7 +33,7 @@ affinities for advanced cluster scheduling
 
 **Sensu**
 
-*6/2017 - 10/2018*
+*6/2017 - 10/2018*   
 Software Engineer, [Sensu-Go](https://github.com/sensu/sensu-go)
 - Collaborated on a team with 7 fellow developers on the open source sensu-go codebase, writing testable, reusable, and readable code.
 - Removed operational roadblocks to help smooth out our development process.
@@ -48,7 +48,7 @@ Software Engineer, [Sensu-Go](https://github.com/sensu/sensu-go)
 
 **Comcast** 
 
-*7/2016 - 2/2017*               
+*7/2016 - 2/2017*   
 Software Engineer, Core Application Platforms
 - Wrote API integrations for Pagerduty and Slack to send metrics/alert data to those services in Elixir. 
 - Implemented an Elixir API wrapper for Marathon to create/destroy/scale containers
