@@ -11,15 +11,27 @@ me@mercedescoyle.com
 
 # Interests
 ---
-Automation, Systems Architecture, Chatops, Backend Software Engineering, Public
-Speaking, Technical Writing. Hire me! I'm looking for a remote-friendly team building infrastructure and tooling for a smooth development process.
+Automation, Systems Architecture, Chatops, Backend Software Engineering, Data, Public
+Speaking, Technical Writing. Hire me! I'm looking for a remote-friendly team
+doing meaningful work.
 
 # Experience
 
 ---     
+**Percy**
+*11/2018 - 5/2019*
+Senior Software Engineer, Infrastructure
+- Prototyped and executed function as a service solution to prove out viability
+of rewriting browser rendering as a function, instead of a kubernetes backed rendering cluster
+- Increased test coverage from ~10% to ~85% in a small, but critical HTTP Proxy
+project written in Go, resulting in more reliable and readable code.
+- Acted as a team resource for Go knowledge and best practices, including test
+coverage, dependency management, and project architecture
+- Wrote a kubernetes mutation controller to manage node taints, tolerations, and
+affinities for advanced cluster scheduling
+
 **Sensu**
 *6/2017 - 10/2018*
-
 Software Engineer, [Sensu-Go](https://github.com/sensu/sensu-go)
 - Collaborated on a team with 7 fellow developers on the open source sensu-go codebase, writing testable, reusable, and readable code.
 - Removed operational roadblocks to help smooth out our development process.
@@ -100,7 +112,7 @@ Flask, MongoDB, and phonetic algorithms for search functionality
 
 **Languages and Frameworks:** Go, Python, Ruby, Elixir, SQL, Flask, Sinatra, Arduino  
 **Data Stores and Processing:** Etcd, PostgreSQL, Redis, MongoDB, ELK, ZeroMQ, RabbitMQ, Rsyslog, AWS Lambda, AWS Kinesis  
-**Infrastructure tools:** AWS, Chef, Terraform, Docker, nginx, TravisCI, Jenkins  
+**Infrastructure tools:** Kubernetes, GCP, AWS, Chef, Terraform, Docker  
 **Monitoring tools:** Sensu, DataDog, Statsd, Grafana  
 **Methodologies:** Kanban, DevOps, Continuous Delivery  
 
@@ -111,8 +123,10 @@ B.A. Photography, San Francisco State University    Completed May 2005
 
 # Volunteering
 Kumoricon *10/2017-present*  
-**Co department lead for Cosplay Repair**:  
-help manage and direct volunteers, assist convention attendees with various materials repairs
+**Manager, Cosplay Repair**:  
+Manage and direct volunteers, assist convention attendees with various materials
+repairs in an often chaotic environment. Ensure volunteers care for themselves
+as well as attendees.
 
 Otakon  *1/2014-present*    
 **Department head for Information Desk and Volunteer Operations, Otakon Vegas:**  
