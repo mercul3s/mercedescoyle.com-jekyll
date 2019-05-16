@@ -19,6 +19,7 @@ doing meaningful work.
 
 ---     
 **Percy**
+
 *11/2018 - 5/2019*
 Senior Software Engineer, Infrastructure
 - Prototyped and executed function as a service solution to prove out viability
@@ -31,6 +32,7 @@ coverage, dependency management, and project architecture
 affinities for advanced cluster scheduling
 
 **Sensu**
+
 *6/2017 - 10/2018*
 Software Engineer, [Sensu-Go](https://github.com/sensu/sensu-go)
 - Collaborated on a team with 7 fellow developers on the open source sensu-go codebase, writing testable, reusable, and readable code.
