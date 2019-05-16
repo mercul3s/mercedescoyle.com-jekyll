@@ -91,7 +91,7 @@ Technology Support Specialist
 # Projects  
 ---     
 
-**OSS Contributes**
+**OSS Contributions:**  
 [Sensu Go](http://github.com/sensu/sensu-go)  
 [Community maintained Sensu Go Chef cookbook](http://github.com/sensu/sensu-go-chef)  
 
@@ -112,10 +112,12 @@ Flask, MongoDB, and phonetic algorithms for search functionality
 # Skills
 ---
 
-**Languages and Frameworks:** Go, Python, Ruby, Elixir, SQL, Flask, Sinatra, Arduino  
-**Data Stores and Processing:** Etcd, PostgreSQL, Redis, MongoDB, ELK, ZeroMQ, RabbitMQ, Rsyslog, AWS Lambda, AWS Kinesis  
-**Infrastructure tools:** Kubernetes, GCP, AWS, Chef, Terraform, Docker  
-**Monitoring tools:** Sensu, DataDog, Statsd, Grafana  
+**Languages and Frameworks:** Go, Python, Ruby, Elixir, SQL, Flask, Sinatra,
+Arduino, Function as a Service (Lambda, Google Cloud Functions, Openfaas)  
+**Data Stores and Processing:** Etcd, PostgreSQL, Redis, MongoDB, Elasticsearch, ZeroMQ,
+RabbitMQ, Rsyslog, Kinesis   
+**Infrastructure tools:** Kubernetes, GCP, AWS, Chef, Terraform, Helm, Docker  
+**Monitoring tools:** Sensu, DataDog, Statsd, Grafana, Prometheus, ELK stack 
 **Methodologies:** Kanban, DevOps, Continuous Delivery  
 
 # Education
